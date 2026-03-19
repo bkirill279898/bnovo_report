@@ -9,7 +9,7 @@ st.set_page_config(page_title="Bnovo кассовое расписание", lay
 st.title("Bnovo кассовое расписание")
 
 # Путь к CSV файлу
-CSV_FILE = 'bnovo_bookings_latest.csv'
+CSV_FILE = 'dataprice/bnovo_bookings_latest.csv'
 
 # Кнопка обновления
 col1, col2 = st.columns([1, 4])

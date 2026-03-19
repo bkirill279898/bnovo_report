@@ -293,7 +293,7 @@ def main():
     print()
 
     #csv_filename = f"bnovo_bookings_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-    csv_filename = f"bnovo_bookings_latest.csv"
+    csv_filename = f"dataprice/bnovo_bookings_latest.csv"
     df.to_csv(csv_filename, index=False, encoding='utf-8-sig')
     print(f"✓ Данные сохранены в файл: {csv_filename}")
 
